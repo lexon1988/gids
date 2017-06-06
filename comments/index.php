@@ -1,7 +1,7 @@
 <?php
 set_time_limit(0);
 
-for($j=0;$j<2000;$j++){
+for($j=0;$j<2500;$j++){
 
 
 	$counter=file_get_contents("comments_counter.txt");
