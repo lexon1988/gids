@@ -1,7 +1,5 @@
 <?php
-/*
-echo file_get_contents("https://api.vk.com/method/users.get?user_ids=1&fields=counters&access_token=d881cf2238548f0739f115b7ec9582fdfbe2254e0e11cd2703778356fa33d2ee354e48f9806f997dbc377");
-*/
+
 
 set_time_limit(60);
 
@@ -34,7 +32,7 @@ for($j=0;$j<1000;$j++){
 
 	if($uid==""){exit();}
 
-		if($followers_count>2000){
+		if($followers_count>900){
 			$save_arr[]=$uid;
 			$save_arr[]=$followers_count;
 
